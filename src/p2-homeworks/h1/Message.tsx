@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styles from './Message.module.css';
 
 type MessagePropsType = {
@@ -8,25 +8,20 @@ type MessagePropsType = {
     time: string,
 }
 
-function Message(props:MessagePropsType) {
+function Message(props: MessagePropsType) {
     return (
         <div className={styles.message}>
-            <div className={styles.itemContainer}>
 
-                    <img className={styles.img} src={props.avatar}  alt="avatar"/>
+                <img className={styles.avatar} src={props.avatar} alt="avatar"/>
 
-                <div className={styles.messageContainer}>
-
-                    <div className={styles.corner}></div>
+                    <div className={styles.angle} />
 
                     <div className={styles.contentMessage}>
                         <div className={styles.name}>{props.name}</div>
-                        <div>{props.message}</div>
+                        <div className={styles.text}>{props.message}</div>
                         <div className={styles.time}>{props.time}</div>
                     </div>
 
-                </div>
-            </div>
 
 
         </div>

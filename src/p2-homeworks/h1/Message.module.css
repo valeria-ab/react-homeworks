@@ -1,54 +1,37 @@
 .message {
-    background-color: greenyellow;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;  background-color: #0a150c;
+ }
+
+.contentMessage {
     padding: 10px;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px 5px 5px 0px;
 
 }
-.itemContainer {
-    max-width: 80%;
-   /* min-width:50%;*/
-}
-.img {
+
+.avatar  {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    display: inline-block;
-    margin-right: 5px;
-    vertical-align: bottom
-
 }
-
-
-.contentMessage {
-  /*  width: 80%;*/
-    word-break: break-all;
-    padding: 10px;
-    background-color: darkgreen;
-    color: white;
-    display: inline-block;
-    border-radius: 5px 5px 5px 0px;
-
-
-}
-.corner {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 10px 10px;
-    border-color: transparent transparent darkgreen transparent;
-    display: inline-block;
-    vertical-align: bottom;
-   bottom: 0;
-
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(255,255,255, 0.3) 0);
 }
 .name {
-    color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+    color: #af597f;
+}
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
 }
 .time {
     color: #8d8f91;
     text-align: end;
-}
-.messageContainer {
-
-    display: inline-block;
 }
