@@ -1,0 +1,54 @@
+.message {
+    background-color: greenyellow;
+    padding: 10px;
+    width: 100%;
+
+}
+.itemContainer {
+    max-width: 80%;
+   /* min-width:50%;*/
+}
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: bottom
+
+}
+
+
+.contentMessage {
+  /*  width: 80%;*/
+    word-break: break-all;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    display: inline-block;
+    border-radius: 5px 5px 5px 0px;
+
+
+}
+.corner {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent darkgreen transparent;
+    display: inline-block;
+    vertical-align: bottom;
+   bottom: 0;
+
+}
+.name {
+    color: hotpink;
+}
+.time {
+    color: #8d8f91;
+    text-align: end;
+}
+.messageContainer {
+
+    display: inline-block;
+}
