@@ -1,7 +1,7 @@
 .message {
     display: flex;
     align-items: flex-end;
-    margin: 10px;  background-color: #0a150c;
+    margin: 10px;
  }
 
 .contentMessage {
@@ -30,8 +30,10 @@
     min-width: 150px;
     max-width: 300px;
     word-wrap: break-word;
+    color: #99ff99;
 }
 .time {
+    display: flex;
+    justify-content: flex-end;
     color: #8d8f91;
-    text-align: end;
 }
