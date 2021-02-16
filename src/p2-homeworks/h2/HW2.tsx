@@ -38,7 +38,7 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homework 2 --  все кнопки активные
+           <h3>homework 2 --  все кнопки активные</h3>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

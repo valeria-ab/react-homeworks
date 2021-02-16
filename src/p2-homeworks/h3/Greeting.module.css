@@ -1,7 +1,33 @@
-.someClass {
-
+.hw3 {
+margin-left: 10px;
+}
+.error {
+    color: red;
+    font-weight: lighter;
+    height: 20px;
+}
+.normalInput {
+    background: #003300;
+    color: #99ff99;
 }
 
-.error {
+.errorInput {
     border: 1px solid red;
+    background: #003300;
+}
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: #003300;
+    color: #99ff99;
+    outline: none;
+}
+
+.button:disabled {
+    color: #999999;
+}
+
+.input:focus {
+   /* настройки для инпута когда на него кликнули*/
 }

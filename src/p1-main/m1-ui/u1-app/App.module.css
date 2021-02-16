@@ -1,5 +1,11 @@
 .App {
 background-image: url("https://cutewallpaper.org/21/space-wallpapers-hd-1920x1080/1920x1080-Space-Wallpaper-HD-Pictures-Images-Photos-Backgrounds.jpg");
     color: #99ff99;
+    height: 100vh;
 }
-
+h1 {
+    margin: 0;
+}
+h3 {
+    font-weight: normal;
+}
