@@ -8,7 +8,7 @@ appearance: none;
 }
 .checkbox:checked {
     appearance: none;
-background-image: url("96px-Pink_check_tick.svg.png") ;
+/*background-image: url("96px-Pink_check_tick.svg.png") ;*/
 background-repeat: no-repeat;
     background-position: center center;
     background-size: 90% 90%;
